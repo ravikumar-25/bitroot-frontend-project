@@ -1,0 +1,36 @@
+/* ContactForm.css */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .contact-form input[type="text"],
+    .contact-form input[type="email"] {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .contact-form button {
+      font-size: 14px;
+    }
+  }
+  

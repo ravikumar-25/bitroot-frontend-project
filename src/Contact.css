@@ -1,0 +1,36 @@
+.contact {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .contact {
+    /* ... existing styles */
+  
+    /* Adjust styles for smaller screens */
+    @media (max-width: 768px) {
+      padding: 10px;
+      margin: 5px;
+      font-size: 14px;
+    }
+  
+    /* Further adjustments for smaller screens if needed */
+  }
+  
+  .contact button {
+    /* ... existing button styles */
+  
+    /* Adjust button styles for smaller screens */
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+/* ContactList.css */
+
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .contact-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
